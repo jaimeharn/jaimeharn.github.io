@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+
+#mainpage {
+  font-size: 150px;
+  color: rgb(255, 255, 255);
+  font-family: "Marck Script", "Candara", "Arial", sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+body {
+  background-color: rgb(255, 105, 180);
+  font-size: 16px;
+  font-family: "Roboto Condensed", "Candara", "Arial", sans-serif;
+
+}
+
+nav ul {
+  padding-left: 0;
+  list-style-type: none;
+  padding-bottom: 20px;
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Roboto Condensed", "Candara", "Arial", sans-serif;
+}
+
+nav li{
+  display: inline-block;
+  margin-right: 50px;
+  padding-top: 20px;
+}
+
+nav a{
+  padding: 10px;
+}
+
+a:link, a:active {
+  color: rgb(255,255,255);
+}
+
+a:link, a:visited {
+  color: rgb(255,255,255);
+
+}
+
+a:hover {
+  color: rgb(255,192,203);
+}
+
+a {
+   text-decoration: none;
+}
+
+#nav {
+  font-size: 16px;
+  font-family: "Roboto Condensed", "Candara", "Arial", sans-serif;
+  margin-bottom: auto;
+}
+
+#welcomeheader {
+  font-size: 70px;
+  font-family: "Roboto Condensed", "Candara", "Arial", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+#welcomepara {
+  font-size: 24px;
+  font-family: "Roboto Condensed", "Candara", "Arial", sans-serif;
+  text-align: center;
+
+}
+
+#wrapper {
+
+  width: 960px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto 5em;
+  grid-template-areas:
+    "banner"
+    "header"
+    "main"
+    "footer"
+
+}
+
+#nav {
+
+  grid-area: banner;
+  text-align: center;
+}
+
+#mainpage {
+
+  grid-area: header;
+  text-align: center;
+
+}
+
+#welcome {
+
+  grid-area: main;
+  color: rgb(255,255,255);
+}
+
+#footer {
+  grid-area: footer;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header main";
+  width: 960px;
+  margin: 0 auto;
+}
+
+#photo {
+  grid-area: header;
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+}
+
+#main {
+  grid-area: main;
+  font-size: 20px;
+  font-family: "Roboto Condensed", "Candara", "Arial", sans-serif;
+  color: rgb(255,255,255);
+  text-align: justify;
+}
+
+#aboutme {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Roboto Condensed", "Candara", "Arial", sans-serif;
+  color: rgb(255,255,255);
+  border: solid 5px rgb(255,255,255);
+  display: block;
+  padding: 10px;
+  text-align: center;
+  width: 960px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+#layout {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#writing {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Roboto Condensed", "Candara", "Arial", sans-serif;
+  color: rgb(255,255,255);
+  border: solid 5px rgb(255,255,255);
+  display: block;
+  padding: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#work {
+  font-size: 20px;
+  font-family: "Roboto Condensed", "Candara", "Arial", sans-serif;
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#whole {
+  background-color: rgb(255,255,255);
+  width: 600px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.section {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Roboto Condensed", "Candara", "Arial", sans-serif;
+  background-color: rgb(255,182,193);
+}
+
+#education {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Roboto Condensed", "Candara", "Arial", sans-serif;
+  line-height: 10px;
+}
+
+#honors {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Roboto Condensed", "Candara", "Arial", sans-serif;
+  line-height: 25px;
+}
+
+.company {
+  font-size: 24px;
+  font-family: "Roboto Condensed", "Candara", "Arial", sans-serif;
+
+}
+
+.position {
+  font-size: 20px;
+  font-family: "Roboto Condensed", "Candara", "Arial", sans-serif;
+}
+
+.bullets {
+  font-size: 16px;
+  font-family: "Roboto Condensed", "Candara", "Arial", sans-serif;
+}
+
+.skilss{
+  font-size: 20px;
+}
+
+.date {
+  font-size: 16px;
+  font-family: "Roboto Condensed", "Candara", "Arial", sans-serif;
+  color: rgb(255,255,255);
+  font-style: italic;
+}
+
+.website {
+  font-size: 20px;
+  font-family: "Roboto Condensed", "Candara", "Arial", sans-serif;
+  color: rgb(255,255,255);
+}
+
+#edu{
+  font-size: 20px;
+  font-family: "Roboto Condensed", "Candara", "Arial", sans-serif;
+  text-align: center;
+
+}
+
+#tmh{
+  font-size: 35px;
+  font-family: "Roboto Condensed", "Candara", "Arial", sans-serif;
+  color: rgb(255,255,255);
+  font-style: italic;
+
+}
